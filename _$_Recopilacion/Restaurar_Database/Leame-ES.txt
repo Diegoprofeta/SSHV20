@@ -1,0 +1,18 @@
+# SUGERENCIA - [M�TODO ACTUALIZADO] ESPA�OL
+
+# TUTORIAL C�MO IMPORTAR LA BASE DE DATOS (sshplus.sql) EN UN NUEVO PANEL
+
+* 1 Descargue la base de datos (sshplus.sql) en la configuraci�n actual del panel
+* 2 Despu�s de instalar el script del panel en un nuevo vps, coloque el archivo (sshplus.sql) en el directorio / root del nuevo vps, a trav�s de SFTP
+
+(puede usar es fillet Explorer para ingresar a trav�s de sftp en el servidor)
+
+* 3 Ejecute el siguiente comando y sea feliz.
+
+# INSTALACION BACKUP-PANEL-V20 (Script de restauraci�n de la base de datos del panel V20 )
+
+bash <(wget -qO- https://raw.githubusercontent.com/beto107/SSHV20/master/restaurar.sh)
+
+NOTA: �LA CONTRASE�A DE ADMINISTRADOR SER� LA MISMA CONTRASE�A EN EL PANEL SUPERIOR!
+
+@CRAZY_VPN - � SSHPLUS 2020
